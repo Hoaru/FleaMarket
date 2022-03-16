@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/touxiang"
+            android:id="@+id/touxiang"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+        <TextView
+            android:singleLine="true"
+            android:textColor="@color/Black"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/nicheng"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="昵称"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical|end"
+            android:id="@+id/shijian"
+            android:text="时间"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"/>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:textColor="@color/Black"
+            android:id="@+id/pinglun"
+            android:text="评论"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

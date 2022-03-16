@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doyle.Fragment.GoodsFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:background="@color/hui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:background="@color/colorWhite"
+            android:layout_margin="10dp"
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+        <LinearLayout
+            android:visibility="visible"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/back1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/Black"
+                android:text="暂时没相关商品"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/goods_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

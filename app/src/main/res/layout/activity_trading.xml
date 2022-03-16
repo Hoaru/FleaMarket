@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/colorWhite"
+        android:background="#FFC125"
+        android:text="订单详情"/>
+    <LinearLayout
+        android:background="@color/hui"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginBottom="1dp"
+            android:background="@color/colorWhite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:src="@drawable/goodsmoren"
+                    android:id="@+id/gimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    android:singleLine="true"
+                    android:text="昵称"
+                    android:id="@+id/guname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:src="@drawable/trade_lianxibotton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:textColor="@color/Black"
+                        android:singleLine="true"
+                        android:id="@+id/gtel"
+                        android:text="电话"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/trade_location"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:singleLine="true"
+                        android:id="@+id/gaddress"
+                        android:text="地址"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/Black"
+                android:singleLine="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/gname"
+                android:text="商品名字"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
+            <TextView
+                android:textSize="17dp"
+                android:textColor="@color/colorRed"
+                android:gravity="center_vertical"
+                android:text="¥:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:singleLine="true"
+                android:textSize="17dp"
+                android:textColor="@color/colorRed"
+                android:gravity="center_vertical"
+                android:id="@+id/price"
+                android:text="商品价格"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/arrownewleft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/goodsmoren"
+                android:id="@+id/image"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+            <ImageView
+                android:src="@drawable/arrownewright"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/hui"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginBottom="1dp"
+            android:background="@color/colorWhite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:gravity="center_vertical|end"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:src="@drawable/trade_lianxibotton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:textColor="@color/Black"
+                        android:singleLine="true"
+                        android:id="@+id/utel"
+                        android:text="电话"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center_vertical|end"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/trade_location"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:singleLine="true"
+                        android:id="@+id/uaddress"
+                        android:text="地址"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:src="@drawable/goodsmoren"
+                    android:id="@+id/uimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    android:singleLine="true"
+                    android:text="昵称"
+                    android:id="@+id/uname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/greenbotton"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/fahuo"
+                android:text="确认发货"
+                android:layout_gravity="left"
+                android:layout_width="100dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/greenbotton"
+                android:id="@+id/shouhuo"
+                android:text="确认收货"
+                android:layout_gravity="left"
+                android:layout_width="100dp"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical|end"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/redbotton"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/quxiao"
+                android:text="取消订单"
+                android:layout_gravity="end"
+                android:layout_width="100dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

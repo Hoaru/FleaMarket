@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FleaMarket</string>
+    <string name="burl">http://192.168.137.1:8080/FleaMarket/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

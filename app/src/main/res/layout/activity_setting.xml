@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doyle.activity.fleamarket.SettingActivity">
+<LinearLayout
+    android:background="@color/hui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/colorWhite"
+        android:background="#FFC125"
+        android:text="设置"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/changepwd"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/layout_clickbg"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <ImageView
+                android:src="@drawable/setting_shangepwd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/Black"
+            android:gravity="center_vertical"
+            android:text="修改密码"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|end">
+            <ImageView
+                android:layout_margin="20dp"
+                android:src="@drawable/mycenter_arrawright"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/aboutus"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/layout_clickbg"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <ImageView
+                android:src="@drawable/setting_aboatus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/Black"
+            android:gravity="center_vertical"
+            android:text="关于我们"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|end">
+            <ImageView
+                android:layout_margin="20dp"
+                android:src="@drawable/mycenter_arrawright"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/version"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/layout_clickbg"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <ImageView
+                android:src="@drawable/setting_version"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/Black"
+            android:gravity="center_vertical"
+            android:text="版本信息"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|end">
+            <ImageView
+                android:layout_margin="20dp"
+                android:src="@drawable/mycenter_arrawright"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/redbotton"
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="注              销"/>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

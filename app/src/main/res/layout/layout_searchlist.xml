@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/Black"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/name"
+            android:textSize="20dp"
+            android:text="名字"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/detail"
+            android:textSize="10dp"
+            android:text="简介"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"/>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingRight="1dp"
+                android:paddingLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/type_lable_bg"
+                android:textColor="@color/Juice"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/type"
+                android:text="类型"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:paddingRight="1dp"
+                android:paddingLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/hownew_label_bg"
+                android:textColor="@color/colorRed"
+                android:gravity="center_horizontal|center_vertical"
+                android:id="@+id/hownew"
+                android:text="十成新"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:paddingRight="1dp"
+                android:paddingLeft="1dp"
+                android:background="@drawable/getway_label_bg"
+                android:textColor="@color/Green"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/getway"
+                android:text="送货上门"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/colorRed"
+                android:textSize="20dp"
+                android:text="￥："
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/price"
+                android:textColor="@color/colorRed"
+                android:textSize="20dp"
+                android:text="价格"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <ImageView
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/goods_price"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/goods_hot"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/Juice"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/scannum"
+                android:textSize="10dp"
+                android:text="浏览人数"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="10dp"
+                android:text="人浏览过"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

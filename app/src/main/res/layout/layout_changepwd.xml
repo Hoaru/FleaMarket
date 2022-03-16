@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_changepwd"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原     密     码"/>
+        <EditText
+            android:background="@drawable/mainnewpublish_bg"
+            android:id="@+id/oldpwd"
+            android:layout_width="150dp"
+            android:maxLength="8"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新     密     码"/>
+        <EditText
+            android:background="@drawable/mainnewpublish_bg"
+            android:id="@+id/newpwd"
+            android:layout_width="150dp"
+            android:hint="密码6-18位"
+            android:singleLine="true"
+            android:maxLength="18"
+            android:inputType="textPassword"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重复新密码"/>
+        <EditText
+            android:background="@drawable/mainnewpublish_bg"
+            android:id="@+id/renewpwd"
+            android:layout_width="150dp"
+            android:hint="密码6-18位"
+            android:singleLine="true"
+            android:maxLength="18"
+            android:inputType="textPassword"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

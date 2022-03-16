@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/detailtitle"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="【充值消息】"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/Green"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/detailtime"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|end"
+        android:text="2018-04-14 21:01:44"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/detailcontent"
+        android:textColor="@color/Black"
+        android:text="    您的商品 向量机书，有人下单了，赶快去发货哦！"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+
+</LinearLayout>

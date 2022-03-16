@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doyle.activity.fleamarket.CharitydetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/colorWhite"
+            android:background="#FFC125"
+            android:text="公益详情"/>
+        <LinearLayout
+            android:background="@color/hui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <LinearLayout
+                    android:background="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        >
+                        <TextView
+                            android:id="@+id/title"
+                            android:textColor="@color/Black"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="蒲公英计划"
+                            android:singleLine="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:background="@drawable/green_text_bg"
+                            android:textColor="@color/colorWhite"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="进行中"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <TextView
+                        android:id="@+id/content"
+                        android:layout_margin="5dp"
+                        android:textSize="12dp"
+                        android:text="山区的孩子需要你们帮助啊，你们赶快伸出援手号码，一起组建一个好的环境"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        >
+                        <LinearLayout
+                            android:layout_alignParentLeft="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/charity_scan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:textColor="@color/Black"
+                                android:layout_gravity="center"
+                                android:text="浏览人数："
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/scannum"
+                                android:text="5"
+                                android:textColor="@color/Black"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/charity_join"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:textColor="@color/Black"
+                                android:layout_gravity="center"
+                                android:text="参与人数："
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/joinnum"
+                                android:text="5"
+                                android:textColor="@color/Black"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:text="发起人："
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:singleLine="true"
+                                android:id="@+id/uname"
+                                android:textColor="@color/Black"
+                                android:text="豪呵呵"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:gravity="center_vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+                                <ImageView
+                                    android:src="@drawable/trade_lianxibotton"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp" />
+                                <TextView
+                                    android:gravity="center_vertical"
+                                    android:text="17854210000"
+                                    android:singleLine="true"
+                                    android:id="@+id/tel"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginRight="5dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+                                <ImageView
+                                    android:src="@drawable/trade_location"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp" />
+                                <TextView
+                                    android:id="@+id/address"
+                                    android:gravity="center_vertical"
+                                    android:text="石油大学5号宿舍"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/Black"
+                            android:text="需求："
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:text="需要旧书若干，旧电脑若干"
+                            android:padding="5dp"
+                            android:id="@+id/need"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/Black"
+                                    android:text="开始时间："
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:id="@+id/time"
+                                    android:gravity="center_vertical"
+                                    android:text="2018-5-20"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_alignParentRight="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/Black"
+                                    android:text="结束时间："
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:textColor="@color/colorRed"
+                                    android:id="@+id/endtime"
+                                    android:gravity="center_vertical"
+                                    android:text="2018-5-30"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+                        <LinearLayout
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+                            <Button
+                                android:onClick="setJoin"
+                                android:layout_marginTop="2.5dp"
+                                android:layout_marginBottom="2.5dp"
+                                android:id="@+id/join"
+                                android:textColor="@color/colorWhite"
+                                android:background="@drawable/greenbotton"
+                                android:textSize="12dp"
+                                android:text="加入我们"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

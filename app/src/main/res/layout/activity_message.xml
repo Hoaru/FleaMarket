@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doyle.activity.fleamarket.MessageActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/colorWhite"
+            android:background="#FFC125"
+            android:text="我的消息"/>
+        <RelativeLayout
+            android:background="@color/hui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:layout_margin="10dp"
+                android:background="@color/colorWhite"
+                android:id="@+id/messagelist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+            <LinearLayout
+                android:visibility="visible"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="@color/Black"
+                    android:text="暂时还没有消息"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/message_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
